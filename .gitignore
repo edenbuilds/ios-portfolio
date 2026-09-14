@@ -32,3 +32,5 @@ graphify-out
 .venv
 local_graphify
 graphify
+.env.local
+.env*.local

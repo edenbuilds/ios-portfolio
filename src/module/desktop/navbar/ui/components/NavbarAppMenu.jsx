@@ -119,7 +119,7 @@ const NavbarAppMenu = ({ activeAppName, openWindow, isAppleMenuOpen, setIsAppleM
               openWindow("map", { openAbout: true });
             } else if (activeAppName === "Font Book") {
               openWindow("font", { openAbout: true });
-            } else if (activeAppName === "Kuldeep's Portfolio") {
+            } else if (activeAppName === "Eden's Portfolio") {
               setAboutPortfolioOpen(true);
             } else {
               openWindow("settings", { tab: "General" });
@@ -155,7 +155,7 @@ const NavbarAppMenu = ({ activeAppName, openWindow, isAppleMenuOpen, setIsAppleM
               openWindow("settings", { tab: "General", subPage: "storage" });
             } else if (activeAppName === "Settings") {
               openWindow("settings", { tab: "Apple ID" });
-            } else if (activeAppName === "Kuldeep's Portfolio") {
+            } else if (activeAppName === "Eden's Portfolio") {
               openWindow("settings", { tab: "General", subPage: "about" });
             } else {
               openWindow("settings");
@@ -259,14 +259,14 @@ const NavbarAppMenu = ({ activeAppName, openWindow, isAppleMenuOpen, setIsAppleM
           onClick: () => {
             const link = document.createElement("a");
             link.href = "/files/resume.pdf";
-            link.download = "Kuldeep_Rajput_Resume.pdf";
+            link.download = "Eden_Builds_Studio.pdf";
             link.click();
           },
         },
       ],
       [
         {
-          label: "Interactive ATS System",
+          label: "Open Accord",
           onClick: () => openWindow("safari", { url: PROJECT_3_URL }),
         },
       ],

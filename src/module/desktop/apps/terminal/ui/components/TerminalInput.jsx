@@ -19,7 +19,7 @@ const TerminalInput = ({ terminalRef, xtermRef, fitAddonRef, commandRef }) => {
 
     const setupHandlers = (t) => {
       const prompt = () => {
-        t.write("\r\n\x1b[1;32mkuldeep@macbook ~ %\x1b[0m ");
+        t.write("\r\n\x1b[1;32meden@macbook ~ %\x1b[0m ");
       };
 
       const println = (msg) => {
@@ -103,7 +103,7 @@ const TerminalInput = ({ terminalRef, xtermRef, fitAddonRef, commandRef }) => {
                 "\x1b[1;38;2;16;185;129mwhoami\x1b[0m    \x1b[38;2;75;85;99m- Print current user\x1b[0m",
               );
               println(
-                "\x1b[1;38;2;16;185;129mabout\x1b[0m     \x1b[38;2;75;85;99m- About Kuldeep Rajput\x1b[0m",
+                "\x1b[1;38;2;16;185;129mabout\x1b[0m     \x1b[38;2;75;85;99m- About Eden Builds\x1b[0m",
               );
               println(
                 "\x1b[1;38;2;16;185;129mtechstack\x1b[0m \x1b[38;2;75;85;99m- Display tech stack\x1b[0m",
@@ -125,11 +125,11 @@ const TerminalInput = ({ terminalRef, xtermRef, fitAddonRef, commandRef }) => {
               println(new Date().toString());
               break;
             case "whoami":
-              println("\x1b[38;2;75;85;99mkuldeep\x1b[0m");
+              println("\x1b[38;2;75;85;99meden\x1b[0m");
               break;
             case "about":
-              println("\x1b[1;38;2;219;39;119m=== About Kuldeep Rajput ===\x1b[0m");
-              println("\x1b[1;38;2;16;185;129mName:      \x1b[38;2;75;85;99mKuldeep Rajput\x1b[0m");
+              println("\x1b[1;38;2;219;39;119m=== About Eden Builds ===\x1b[0m");
+              println("\x1b[1;38;2;16;185;129mName:      \x1b[38;2;75;85;99mEden Builds\x1b[0m");
               println(
                 "\x1b[1;38;2;16;185;129mRole:      \x1b[38;2;75;85;99mFull-Stack Developer & Designer\x1b[0m",
               );
@@ -152,7 +152,7 @@ const TerminalInput = ({ terminalRef, xtermRef, fitAddonRef, commandRef }) => {
               break;
             case "sudo":
               println(
-                "\x1b[31mkuldeep is not in the sudoers file. This incident will be reported.\x1b[0m",
+                "\x1b[31meden is not in the sudoers file. This incident will be reported.\x1b[0m",
               );
               break;
             case "techstack":

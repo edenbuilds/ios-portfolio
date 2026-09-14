@@ -324,7 +324,7 @@ const LoginScreen = ({ onLogin, isMobile }) => {
                   <span className="text-[9px] text-white/50 font-medium">now</span>
                 </div>
                 <p className="text-[11px] text-white/95 leading-normal mt-0.5 truncate font-semibold">
-                  Kuldeep rajput's Portfolio
+                  Eden Builds' Portfolio
                 </p>
                 <p className="text-[10px] text-white/60 leading-normal truncate">
                   Swipe up or Tap to view portfolio. Passcode is {new Date().getFullYear()}.
@@ -814,7 +814,7 @@ const LoginScreen = ({ onLogin, isMobile }) => {
                     className="w-28 h-28 sm:w-32 sm:h-32 rounded-full object-cover shadow-lg border-2 border-white/20 mb-4"
                   />
                   <h1 className="text-white text-2xl font-medium tracking-wide mb-6 drop-shadow-md">
-                    Kuldeep rajput
+                    Eden Builds
                   </h1>
 
                   <form

@@ -2,19 +2,18 @@ import "../styles/index.css";
 
 const trimTrailingSlash = (value) => value?.replace(/\/+$/, "");
 const SITE_URL = trimTrailingSlash(
-  process.env.NEXT_PUBLIC_PORTFOLIO_URL || "https://macos-kuldeeprajput.vercel.app",
+  process.env.NEXT_PUBLIC_PORTFOLIO_URL || "https://ios.edenbuilds.me",
 );
-const OWNER_NAME = "Kuldeep Rajput";
+const OWNER_NAME = "Eden Builds";
 const SITE_NAME = `${OWNER_NAME} - macOS Portfolio`;
 const SITE_DESCRIPTION =
-  "An interactive macOS-inspired developer portfolio featuring functional apps, an AI-powered Siri assistant, music player, terminal, weather, maps, resume preview, and project showcases built with Next.js, React, and GSAP.";
+  "Eden Builds interactive macOS portfolio — production legal ops, verification systems, MCP control planes, and agent infrastructure.";
 const OG_IMAGE = "/readme/desktop.png";
-const GITHUB_PROFILE =
-  process.env.NEXT_PUBLIC_GITHUB_PROFILE || "https://github.com/kuldeeprajput-dev";
+const GITHUB_PROFILE = process.env.NEXT_PUBLIC_GITHUB_PROFILE || "https://github.com/edenbuilds";
 const LINKEDIN_URL =
-  process.env.NEXT_PUBLIC_LINKEDIN_URL || "https://www.linkedin.com/in/kuldeepdotcom/";
-const TWITTER_URL = process.env.NEXT_PUBLIC_TWITTER_URL || "https://x.com/kuldeepdotcom";
-const EMAIL = process.env.NEXT_PUBLIC_EMAIL || "contact.kuldeeprajput@gmail.com";
+  process.env.NEXT_PUBLIC_LINKEDIN_URL || "https://www.linkedin.com/in/edenbuilds/";
+const TWITTER_URL = process.env.NEXT_PUBLIC_TWITTER_URL || "https://x.com/edenbuilds";
+const EMAIL = process.env.NEXT_PUBLIC_EMAIL || "hello@edenbuilds.dev";
 
 const getTwitterHandle = (url) => {
   try {
@@ -44,7 +43,7 @@ const jsonLd = [
     name: OWNER_NAME,
     url: SITE_URL,
     email: `mailto:${EMAIL}`,
-    jobTitle: "Full Stack Developer",
+    jobTitle: "Studio founder",
     sameAs,
   },
 ];
@@ -69,10 +68,10 @@ export const metadata = {
     "Next.js portfolio",
     "React portfolio",
     "AI portfolio",
-    "frontend developer",
-    "full stack developer",
-    "web developer",
-    "software engineer portfolio",
+    "Eden Builds",
+    "agent infrastructure",
+    "legal practice ops",
+    "MCP gateway",
   ],
   authors: [{ name: OWNER_NAME, url: SITE_URL }],
   creator: OWNER_NAME,

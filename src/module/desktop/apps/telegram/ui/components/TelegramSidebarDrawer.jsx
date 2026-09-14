@@ -339,11 +339,11 @@ const TelegramSidebarDrawer = ({
             </span>
             {[
               {
-                name: "Kuldeep (Developer)",
-                role: "@kuldeeprajput_dev",
+                name: "Eden Builds",
+                role: "@edenbuilds",
                 color: "bg-blue-500",
                 initial: "K",
-                id: "kuldeep",
+                id: "eden",
               },
               {
                 name: "Amit Kumar",
@@ -388,8 +388,8 @@ const TelegramSidebarDrawer = ({
               Recent Call Logs
             </span>
             {[
-              { name: "Kuldeep (Developer)", time: "Today, 10:35 AM", type: "Outgoing" },
-              { name: "Kuldeep (Developer)", time: "Yesterday, 2:40 PM", type: "Missed" },
+              { name: "Eden Builds", time: "Today, 10:35 AM", type: "Outgoing" },
+              { name: "Eden Builds", time: "Yesterday, 2:40 PM", type: "Missed" },
               { name: "System Assistant", time: "May 25, 4:10 PM", type: "Incoming" },
             ].map((call, idx) => (
               <div

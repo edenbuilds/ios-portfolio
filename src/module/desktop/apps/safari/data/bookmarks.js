@@ -1,4 +1,4 @@
-import { PROJECT_1_URL, PROJECT_2_URL, PROJECT_3_URL } from "@constants";
+import { PROJECT_1_URL, PROJECT_2_URL, PROJECT_3_URL, PROJECT_4_URL } from "@constants";
 
 export const DEFAULT_BOOKMARKS = [
   {
@@ -9,27 +9,27 @@ export const DEFAULT_BOOKMARKS = [
   },
   {
     id: 2,
-    title: "NewTube",
+    title: "SHB Firm Manager",
     url: PROJECT_1_URL,
-    img: "/images/youtube.webp",
+    img: "/projects/shb.webp",
   },
   {
     id: 3,
-    title: "Resume ATS",
+    title: "Accord",
     url: PROJECT_3_URL,
-    img: "/images/resume-ats.webp",
+    img: "/projects/accord.webp",
   },
   {
     id: 4,
-    title: "Insta Downloader",
+    title: "Veryfy",
     url: PROJECT_2_URL,
-    img: "/images/insta-downloader.webp",
+    img: "/projects/veryfy.webp",
   },
   {
     id: 5,
-    title: "Wikipedia",
-    url: "https://en.wikipedia.org",
-    img: "https://en.wikipedia.org/favicon.ico",
+    title: "Blackbox",
+    url: PROJECT_4_URL,
+    img: "/projects/blackbox.webp",
   },
   {
     id: 6,

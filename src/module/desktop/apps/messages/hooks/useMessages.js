@@ -25,7 +25,7 @@ const useMessages = () => {
     return INITIAL_CONVERSATIONS;
   });
 
-  const [activeChatId, setActiveChatId] = useState("kuldeep");
+  const [activeChatId, setActiveChatId] = useState("eden");
   const [inputText, setInputText] = useState("");
   const [searchQuery, setSearchQuery] = useState("");
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
@@ -142,17 +142,17 @@ const useMessages = () => {
     setInputText("");
 
     const chatId = activeChat.id;
-    if (chatId === "kuldeep" || chatId === "mahabub" || chatId === "bhavesh") {
+    if (chatId === "eden" || chatId === "mahabub" || chatId === "bhavesh") {
       setIsTyping(true);
       setTimeout(() => {
         setIsTyping(false);
         let replyText = "";
 
-        if (chatId === "kuldeep") {
+        if (chatId === "eden") {
           replyText = "That's cool! Feel free to explore other apps in the dock too.";
           if (userMsg.includes("project")) {
             replyText =
-              "I have built several cool projects! You can check them out in the 'Portfolio' Finder app, or view 'NewTube', 'Snsta', and 'Docs Editor'.";
+              "I have built several cool projects! You can check them out in the 'Portfolio' Finder app, or view 'SHB Firm Manager', 'Veryfy', and 'Blackbox'.";
           } else if (
             userMsg.includes("skill") ||
             userMsg.includes("tech") ||
@@ -166,7 +166,7 @@ const useMessages = () => {
             userMsg.includes("hire")
           ) {
             replyText =
-              "You can contact me via email at kuldeeprajput.dev@gmail.com, or check out my socials (Github, LinkedIn) in the Safari app!";
+              "You can contact me via email at hello@edenbuilds.dev, or check out my socials (Github, LinkedIn) in the Safari app!";
           } else if (
             userMsg.includes("hello") ||
             userMsg.includes("hi") ||

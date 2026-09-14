@@ -28,14 +28,14 @@ export const INITIAL_CHATS = [
     ],
   },
   {
-    id: "kuldeep",
-    name: "Kuldeep (Developer)",
+    id: "eden",
+    name: "Eden Builds",
     type: "user",
     avatar: "/images/profile.webp",
     avatarColor: "bg-gradient-to-tr from-blue-500 to-indigo-600",
     initials: "K",
     status: "online",
-    username: "@kuldeeprajput_dev",
+    username: "@edenbuilds",
     bio: "Full Stack Engineer | React, Next.js, Node.js & TypeScript enthusiast.",
     phone: "+91 ••••• •••••",
     messages: [
@@ -94,7 +94,7 @@ export const INITIAL_CHATS = [
     avatarColor: "bg-gradient-to-tr from-purple-500 to-pink-600",
     initials: "PU",
     status: "1,240 subscribers",
-    username: "@kuldeep_updates",
+    username: "@eden_updates",
     bio: "Official channel for release logs, new features, and design updates on this macOS portfolio project.",
     phone: "None",
     messages: [

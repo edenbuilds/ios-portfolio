@@ -11,10 +11,15 @@ export const TWITTER_URL = process.env.NEXT_PUBLIC_TWITTER_URL;
 export const LINKEDIN_URL = process.env.NEXT_PUBLIC_LINKEDIN_URL;
 export const GITHUB_USERNAME = GITHUB_PROFILE
   ? GITHUB_PROFILE.replace(/\/+$/, "").split("/").pop()
-  : "kuldeeprajput-dev";
+  : "edenbuilds";
 
-export const PORTFOLIO_URL = process.env.NEXT_PUBLIC_PORTFOLIO_URL || "https://kuldeeprajput.in";
+export const PORTFOLIO_URL = process.env.NEXT_PUBLIC_PORTFOLIO_URL || "https://ios.edenbuilds.me";
 export const PORTFOLIO_ALT_URL =
-  process.env.NEXT_PUBLIC_PORTFOLIO_ALT_URL || "https://kuldeep-rajput.vercel.app/";
-export const EMAIL = process.env.NEXT_PUBLIC_EMAIL || "contact.kuldeeprajput@gmail.com";
-export const PHONE = process.env.NEXT_PUBLIC_PHONE || "+91 0000000000";
+  process.env.NEXT_PUBLIC_PORTFOLIO_ALT_URL || "https://ios.edenbuilds.me";
+export const EMAIL = process.env.NEXT_PUBLIC_EMAIL || "hello@edenbuilds.dev";
+export const PHONE = process.env.NEXT_PUBLIC_PHONE || "";
+
+export const OWNER_NAME = "Eden Builds";
+export const OWNER_SHORT = "Eden";
+export const OWNER_HANDLE = "edenbuilds";
+export const SITE_TAGLINE = "Production apps, agent infra, and upstream open-source merges.";

@@ -12,36 +12,37 @@ import {
 export const projects = [
   {
     id: 1,
-    title: "NewTube",
+    title: "SHB Firm Manager",
     description:
-      "A modern video streaming application built with Next.js, Tailwind CSS, tRPC, and PostgreSQL.",
-    image: "/projects/newtube.webp",
+      "Legal practice ops for chambers work — matters, diary, hearings, and court scrapers across eCourts, Bombay HC, and MahaRERA/REAT.",
+    image: "/projects/shb.webp",
     link: PROJECT_1_URL,
     github: PROJECT_1_GITHUB,
   },
   {
     id: 2,
-    title: "Insta Things Download",
+    title: "Veryfy",
     description:
-      "Download photos, videos, and reels from Instagram easily with a fast, user-friendly web app.",
-    image: "/projects/snsta.webp",
+      "Verification cloud with client and control portals. Supabase, Resend, and AgentMail for review-led workflows.",
+    image: "/projects/veryfy.webp",
     link: PROJECT_2_URL,
     github: PROJECT_2_GITHUB,
   },
   {
     id: 3,
-    title: "Resume Ats Scanner",
-    description: "AI-powered resume parsing and analysis platform optimized for ATS.",
-    image: "/projects/resume-ats.webp",
+    title: "Accord",
+    description:
+      "MCP gateway and control plane. Explicit policies, bounded execution, and decision receipts.",
+    image: "/projects/accord.webp",
     link: PROJECT_3_URL,
     github: PROJECT_3_GITHUB,
   },
   {
     id: 4,
-    title: "Docs Editor",
+    title: "Blackbox",
     description:
-      "A powerful, real-time collaborative document editor built with Next.js, Tiptap, Liveblocks, and Convex.",
-    image: "/projects/docs-editor.webp",
+      "Flight recorder for coding agents. Claude Code and Codex transcripts become one append-only event log you can query.",
+    image: "/projects/blackbox.webp",
     link: PROJECT_4_URL,
     github: PROJECT_4_GITHUB,
   },

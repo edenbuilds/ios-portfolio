@@ -2,7 +2,7 @@ import clsx from "clsx";
 import OptimizedImage from "@module/shared/ui/components/OptimizedImage";
 
 const HomeFolder = ({ project, onClick }) => {
-  const displayName = project.name === "Resume Ats Scanner" ? "Resume ATS" : project.name;
+  const displayName = project.name;
   return (
     <li className={clsx("group folder", project.windowPosition)} onClick={onClick}>
       <OptimizedImage

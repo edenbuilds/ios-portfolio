@@ -32,11 +32,11 @@ const AboutPortfolioModal = ({ show, onClose }) => {
         <div className="flex-1 flex flex-col items-center justify-center mt-3 text-center">
           <img
             src="/images/profile.webp"
-            alt="Kuldeep Rajput"
+            alt="Eden Builds"
             className="w-16 h-16 rounded-full object-cover drop-shadow-md border border-gray-200 select-none pointer-events-none"
           />
           <h1 className="text-[15px] font-bold text-gray-900 mt-3 select-none leading-tight">
-            Kuldeep's Portfolio
+            Eden's Portfolio
           </h1>
           <p className="text-[10px] text-gray-500 font-semibold select-none mt-0.5">
             Version 2.0 (Ventura Layout)
@@ -45,7 +45,7 @@ const AboutPortfolioModal = ({ show, onClose }) => {
 
         {/* Footer/Copyright */}
         <div className="text-center text-[8.5px] text-gray-400/90 leading-tight mb-2 select-none">
-          <p>Copyright © 2026 Kuldeep Rajput.</p>
+          <p>Copyright © 2026 Eden Builds.</p>
           <p>All rights reserved.</p>
         </div>
       </div>

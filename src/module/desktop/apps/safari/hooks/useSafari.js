@@ -237,11 +237,11 @@ const useSafari = () => {
           } else if (targetUrl === "safari://bookmarks") {
             newTitle = "Bookmarks";
           } else if (targetUrl === PROJECT_1_URL) {
-            newTitle = "NewTube";
+            newTitle = "SHB Firm Manager";
           } else if (targetUrl === PROJECT_2_URL) {
-            newTitle = "Insta Downloader";
+            newTitle = "Veryfy";
           } else if (targetUrl === PROJECT_3_URL) {
-            newTitle = "Resume ATS";
+            newTitle = "Accord";
           } else if (targetUrl === "https://en.wikipedia.org") {
             newTitle = "Wikipedia";
           } else if (targetUrl === "https://openstreetmap.org") {
@@ -360,9 +360,9 @@ const useSafari = () => {
     if (url === "safari://privacy-report") return "Privacy Report";
     if (url === "safari://history") return "History";
     if (url === "safari://bookmarks") return "Bookmarks";
-    if (url === PROJECT_1_URL) return "NewTube";
-    if (url === PROJECT_2_URL) return "Insta Downloader";
-    if (url === PROJECT_3_URL) return "Resume ATS";
+    if (url === PROJECT_1_URL) return "SHB Firm Manager";
+    if (url === PROJECT_2_URL) return "Veryfy";
+    if (url === PROJECT_3_URL) return "Accord";
     if (url === "https://en.wikipedia.org") return "Wikipedia";
     if (url === "https://openstreetmap.org") return "OpenStreetMap";
     if (url === (typeof window !== "undefined" ? window.location.origin : "http://localhost:3000"))

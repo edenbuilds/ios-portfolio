@@ -1,6 +1,6 @@
 const trimTrailingSlash = (value) => value?.replace(/\/+$/, "");
 const SITE_URL = trimTrailingSlash(
-  process.env.NEXT_PUBLIC_PORTFOLIO_URL || "https://macos-kuldeeprajput.vercel.app",
+  process.env.NEXT_PUBLIC_PORTFOLIO_URL || "https://ios.edenbuilds.me",
 );
 
 export default function sitemap() {

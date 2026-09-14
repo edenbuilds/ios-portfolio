@@ -34,11 +34,11 @@ const useMessages = () => {
 
   const [pinnedChats, setPinnedChats] = useState(() => {
     const saved = localStorage.getItem("macos_portfolio_pinned_messages");
-    return saved ? JSON.parse(saved) : ["kuldeep"];
+    return saved ? JSON.parse(saved) : ["eden"];
   });
 
   const [activeCategory, setActiveCategory] = useState("all"); // "all", "unread", "muted"
-  const [activeChatId, setActiveChatId] = useState("kuldeep");
+  const [activeChatId, setActiveChatId] = useState("eden");
   const [inputText, setInputText] = useState("");
   const [searchQuery, setSearchQuery] = useState("");
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
@@ -179,8 +179,8 @@ const useMessages = () => {
         ),
       );
 
-      // Kuldeep chatbot reply triggers
-      if (activeChat.id === "kuldeep") {
+      // Eden chatbot reply triggers
+      if (activeChat.id === "eden") {
         setIsTyping(true);
         setTimeout(() => {
           setIsTyping(false);
@@ -195,7 +195,7 @@ const useMessages = () => {
           };
           setConversations((prev) =>
             prev.map((c) =>
-              c.id === "kuldeep" ? { ...c, messages: [...c.messages, replyMessage] } : c,
+              c.id === "eden" ? { ...c, messages: [...c.messages, replyMessage] } : c,
             ),
           );
         }, 1200);
@@ -223,14 +223,14 @@ const useMessages = () => {
     const userMsg = inputText.toLowerCase();
     setInputText("");
 
-    if (activeChat.id === "kuldeep") {
+    if (activeChat.id === "eden") {
       setIsTyping(true);
       setTimeout(() => {
         setIsTyping(false);
         let replyText = "That's cool! Feel free to explore other apps in the dock too.";
         if (userMsg.includes("project")) {
           replyText =
-            "I have built several cool projects! You can check them out in the 'Portfolio' Finder app, or view 'NewTube', 'Snsta', and 'Docs Editor'.";
+            "I have built several cool projects! You can check them out in the 'Portfolio' Finder app, or view 'SHB Firm Manager', 'Veryfy', and 'Blackbox'.";
         } else if (
           userMsg.includes("skill") ||
           userMsg.includes("tech") ||
@@ -244,7 +244,7 @@ const useMessages = () => {
           userMsg.includes("hire")
         ) {
           replyText =
-            "You can contact me via email at kuldeeprajput.dev@gmail.com, or check out my socials (Github, LinkedIn) in the Safari app!";
+            "You can contact me via email at hello@edenbuilds.dev, or check out my socials (Github, LinkedIn) in the Safari app!";
         } else if (userMsg.includes("hello") || userMsg.includes("hi") || userMsg.includes("hey")) {
           replyText =
             "Hey there! Hope you are enjoying the macOS portfolio. How can I help you today?";
@@ -259,7 +259,7 @@ const useMessages = () => {
 
         setConversations((prev) =>
           prev.map((c) =>
-            c.id === "kuldeep" ? { ...c, messages: [...c.messages, replyMessage] } : c,
+            c.id === "eden" ? { ...c, messages: [...c.messages, replyMessage] } : c,
           ),
         );
       }, 1200);

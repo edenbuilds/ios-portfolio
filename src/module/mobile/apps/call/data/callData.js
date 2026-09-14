@@ -9,8 +9,8 @@ export const CONTACTS = [
     callPreview: "/images/contacts/Bhavesh.webp",
   },
   {
-    id: "kuldeep",
-    name: "Kuldeep (Developer)",
+    id: "eden",
+    name: "Eden Builds",
     status: "My Profile",
     available: true,
     avatar: "/images/profile.webp",

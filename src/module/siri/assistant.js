@@ -13,13 +13,13 @@ import {
   PORTFOLIO_URL,
 } from "@constants";
 
-const OWNER_NAME = "Kuldeep Rajput";
+const OWNER_NAME = "Eden Builds";
 
 const FALLBACK_PROJECT_LINKS = {
-  newtube: PROJECT_1_URL,
-  insta: PROJECT_2_URL,
-  resume: PROJECT_3_URL,
-  docs: PROJECT_4_URL,
+  shb: PROJECT_1_URL,
+  veryfy: PROJECT_2_URL,
+  accord: PROJECT_3_URL,
+  blackbox: PROJECT_4_URL,
 };
 
 const FALLBACK_SOCIAL_LINKS = {
@@ -31,40 +31,20 @@ const FALLBACK_SOCIAL_LINKS = {
 
 const PROJECT_META = {
   1: {
-    key: "newtube",
-    aliases: ["newtube", "new tube", "youtube clone", "video streaming", "video app"],
+    key: "shb",
+    aliases: ["shb", "shb firm manager", "firm manager", "case manager", "legal ops", "chambers"],
   },
   2: {
-    key: "insta",
-    aliases: [
-      "snsta",
-      "insta things download",
-      "instagram downloader",
-      "insta downloader",
-      "reels downloader",
-      "free course finder",
-      "course finder",
-    ],
+    key: "veryfy",
+    aliases: ["veryfy", "verify", "verification", "veryfy.cloud"],
   },
   3: {
-    key: "resume",
-    aliases: [
-      "resume ats",
-      "resume ats scanner",
-      "resume scanner",
-      "ats scanner",
-      "resume analyzer",
-    ],
+    key: "accord",
+    aliases: ["accord", "mcp", "mcp gateway", "control plane"],
   },
   4: {
-    key: "docs",
-    aliases: [
-      "docs editor",
-      "document editor",
-      "collaborative editor",
-      "real time editor",
-      "documents editor",
-    ],
+    key: "blackbox",
+    aliases: ["blackbox", "flight recorder", "agent log", "transcript log"],
   },
 };
 
@@ -480,27 +460,26 @@ const handleLocationCommand = (query, actions) => {
     ]) &&
     !hasAny(query, OPEN_INTENTS)
   ) {
-    return makeResult("I am designed only responsive about Kuldeep Rajput.", { listenAfter: true });
+    return makeResult("I am designed only responsive about Eden Builds.", { listenAfter: true });
   }
 
-  // Informational queries about Kuldeep
+  // Informational queries about Eden
   if (
     hasAny(query, [
-      "tell me about kuldeep",
+      "tell me about eden",
       "tell me about rajput",
-      "tell me about kuldeep rajput",
-      "who is kuldeep",
+      "tell me about eden rajput",
+      "who is eden",
       "who is rajput",
-      "who is kuldeep rajput",
-      "say about kuldeep",
+      "who is eden rajput",
+      "say about eden",
       "say about rajput",
-      "say about kuldeep rajput",
+      "say about eden rajput",
     ]) ||
-    query === "kuldeep" ||
+    query === "eden" ||
     query === "rajput" ||
-    query === "kuldeep rajput" ||
-    ((containsTerm(query, "kuldeep") || containsTerm(query, "rajput")) &&
-      !hasAny(query, OPEN_INTENTS))
+    query === "eden rajput" ||
+    ((containsTerm(query, "eden") || containsTerm(query, "rajput")) && !hasAny(query, OPEN_INTENTS))
   ) {
     return makeResult(
       `${OWNER_NAME} is a web developer focused on React, Next.js, and polished interactive portfolio experiences.`,
@@ -515,9 +494,9 @@ const handleLocationCommand = (query, actions) => {
       "open about me",
       "open about",
       "about me",
-      "about kuldeep",
+      "about eden",
       "about rajput",
-      "about kuldeep rajput",
+      "about eden rajput",
       "developer profile",
     ])
   ) {

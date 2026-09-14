@@ -11,7 +11,7 @@ export default function Portfolio() {
       <header className="sticky top-0 z-50 w-full py-4 border-b border-zinc-900 bg-[#0a0a0a]/80 backdrop-blur-md px-8 flex justify-between items-center">
         <div className="flex items-center gap-2">
           <span className="w-2.5 h-2.5 rounded-full bg-blue-500 animate-pulse" />
-          <span className="font-bold text-sm tracking-tight text-white uppercase">Kuldeep Rajput</span>
+          <span className="font-bold text-sm tracking-tight text-white uppercase">Eden Builds</span>
         </div>
         <nav className="flex gap-6 text-xs font-semibold text-zinc-400">
           <a href="#projects" className="hover:text-white transition-colors">Projects</a>
@@ -29,7 +29,7 @@ export default function Portfolio() {
 
       {/* Footer */}
       <footer className="py-8 border-t border-zinc-900 text-center text-xs text-zinc-500">
-        <p>© 2026 Kuldeep Rajput. Built with Next.js, React & Tailwind CSS.</p>
+        <p>© 2026 Eden Builds. Built with Next.js, React & Tailwind CSS.</p>
       </footer>
     </div>
   );
@@ -46,18 +46,18 @@ export default function Hero() {
         I build modern, scalable web applications
       </h1>
       <p className="text-base text-zinc-400 leading-relaxed max-w-2xl">
-        I am <span className="text-white font-medium">Kuldeep Rajput</span>. I design high-performance full-stack architectures and robust AI integrations using Next.js, React, and Tailwind CSS.
+        I am <span className="text-white font-medium">Eden Builds</span>. I design high-performance full-stack architectures and robust AI integrations using Next.js, React, and Tailwind CSS.
       </p>
       <div className="flex flex-wrap gap-4 pt-2">
         <a 
-          href="https://cal.com/kuldeep-kd6ity" 
+          href="https://cal.com/eden-kd6ity" 
           target="_blank" 
           className="px-5 py-2.5 bg-white text-black hover:bg-zinc-200 rounded-xl text-xs font-bold transition-all shadow-lg active:scale-95"
         >
           Schedule Call
         </a>
         <a 
-          href="mailto:contact.kuldeeprajput@gmail.com" 
+          href="mailto:hello@edenbuilds.dev" 
           className="px-5 py-2.5 bg-zinc-900 text-white hover:bg-zinc-800 border border-zinc-800 rounded-xl text-xs font-bold transition-all active:scale-95"
         >
           Send Email
@@ -70,28 +70,28 @@ export default function Hero() {
 
 const SELECTED_PROJECTS = [
   {
-    title: "NEWTUBE",
-    desc: "A modern, full-stack video sharing platform built with Next.js 15, Mux, and tRPC.",
-    tech: ["Next.js 15", "Mux", "tRPC", "PostgreSQL"],
+    title: "SHB FIRM MANAGER",
+    desc: "Legal practice ops for chambers work — matters, diary, hearings, and court scrapers.",
+    tech: ["Next.js", "Supabase", "Railway", "TypeScript"],
     rating: "4.9"
   },
   {
-    title: "DOCS EDITOR",
-    desc: "A powerful, real-time collaborative document editor built with modern web technologies.",
-    tech: ["React", "Liveblocks", "TipTap Editor", "Next.js"],
+    title: "VERYFY",
+    desc: "Verification cloud with client and control portals for review-led workflows.",
+    tech: ["Next.js", "Supabase", "Resend", "AgentMail"],
     rating: "4.8"
   },
   {
-    title: "RESUME ANALYZER",
-    desc: "AI-powered tool that evaluates resumes against ATS systems and provides actionable feedback.",
-    tech: ["Gemini AI", "Next.js", "Tailwind CSS", "PDF Parser"],
+    title: "ACCORD",
+    desc: "MCP gateway and control plane with policies, bounded execution, and decision receipts.",
+    tech: ["TypeScript", "MCP", "Next.js", "Vercel"],
     rating: "4.9"
   },
   {
-    title: "FREE COURSE",
-    desc: "AI-powered learning discovery platform that finds free courses across the web.",
-    tech: ["Next.js", "AI Search Engine", "Tailwind CSS"],
-    rating: "4.7"
+    title: "BLACKBOX",
+    desc: "Zero-dependency flight recorder for Claude Code and Codex transcripts.",
+    tech: ["JavaScript", "Node.js", "JSONL", "CLI"],
+    rating: "4.8"
   }
 ];
 
@@ -147,14 +147,14 @@ export default function AboutMe() {
         <h3 className="text-xs font-bold text-zinc-500 uppercase tracking-wider">Social Channels</h3>
         <h4 className="text-sm font-bold text-white uppercase">Let's Connect</h4>
         <div className="flex flex-col gap-2 pt-1">
-          <a href="https://github.com/kuldeeprajput-dev" target="_blank" className="text-xs text-zinc-400 hover:text-white flex items-center gap-1.5">
-            📁 GitHub /kuldeeprajput-dev
+          <a href="https://github.com/edenbuilds" target="_blank" className="text-xs text-zinc-400 hover:text-white flex items-center gap-1.5">
+            📁 GitHub /edenbuilds
           </a>
-          <a href="https://www.linkedin.com/in/kuldeepdotcom/" target="_blank" className="text-xs text-zinc-400 hover:text-white flex items-center gap-1.5">
-            💼 LinkedIn /in/kuldeepdotcom
+          <a href="https://www.linkedin.com/in/edenbuilds/" target="_blank" className="text-xs text-zinc-400 hover:text-white flex items-center gap-1.5">
+            💼 LinkedIn /in/edenbuilds
           </a>
-          <a href="https://x.com/kuldeepdotcom" target="_blank" className="text-xs text-zinc-400 hover:text-white flex items-center gap-1.5">
-            🐦 Twitter @kuldeepdotcom
+          <a href="https://x.com/edenbuilds" target="_blank" className="text-xs text-zinc-400 hover:text-white flex items-center gap-1.5">
+            🐦 Twitter @edenbuilds
           </a>
         </div>
       </div>
@@ -185,7 +185,7 @@ module.exports = {
   plugins: [],
 }`,
   "package.json": `{
-  "name": "kuldeep-portfolio-v2",
+  "name": "eden-portfolio-v2",
   "private": true,
   "version": "2.0.0",
   "type": "module",
@@ -212,7 +212,7 @@ module.exports = {
   ".env": `NEXT_PUBLIC_GROQ_API_KEY=gsk_mock_key_12345
 PORT=3000
 NODE_ENV=development`,
-  "README.md": `# Kuldeep Rajput - Portfolio
+  "README.md": `# Eden Builds - Portfolio
 
 This is my personal developer portfolio built with React, Next.js, and Tailwind CSS. It highlights my full-stack web applications, tech stack, and digital writing.
 

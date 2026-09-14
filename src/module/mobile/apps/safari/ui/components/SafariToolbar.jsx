@@ -661,7 +661,7 @@ const SafariMobileHeader = ({ projects }) => {
                         return (
                           <img
                             src="/projects/newtube.webp"
-                            alt="NewTube"
+                            alt="SHB Firm Manager"
                             className="w-full h-full object-cover object-top"
                           />
                         );
@@ -670,7 +670,7 @@ const SafariMobileHeader = ({ projects }) => {
                         return (
                           <img
                             src="/projects/snsta.webp"
-                            alt="Insta Downloader"
+                            alt="Veryfy"
                             className="w-full h-full object-cover object-top"
                           />
                         );
@@ -679,7 +679,7 @@ const SafariMobileHeader = ({ projects }) => {
                         return (
                           <img
                             src="/projects/resume-ats.webp"
-                            alt="Resume ATS"
+                            alt="Accord"
                             className="w-full h-full object-cover object-top"
                           />
                         );
@@ -688,7 +688,7 @@ const SafariMobileHeader = ({ projects }) => {
                         return (
                           <img
                             src="/projects/docs-editor.webp"
-                            alt="Docs Editor"
+                            alt="Blackbox"
                             className="w-full h-full object-cover object-top"
                           />
                         );

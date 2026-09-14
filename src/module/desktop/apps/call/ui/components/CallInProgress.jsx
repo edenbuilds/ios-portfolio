@@ -20,7 +20,7 @@ const CallInProgress = ({
     const githubProfileUrl = process.env.NEXT_PUBLIC_GITHUB_PROFILE || "";
     const username = githubProfileUrl
       ? githubProfileUrl.replace(/\/+$/, "").split("/").pop()
-      : "kuldeeprajput-dev";
+      : "edenbuilds";
 
     fetch(`https://api.github.com/users/${username}`)
       .then((res) => res.json())
@@ -32,17 +32,17 @@ const CallInProgress = ({
       .catch((err) => console.error("Error fetching profile avatar:", err));
   }, []);
 
-  const isKuldeep = activeCall.name?.toLowerCase().includes("kuldeep");
+  const isEden = activeCall.name?.toLowerCase().includes("eden");
   const isBhavesh = activeCall.name?.toLowerCase().includes("bhavesh");
   const isMahabub = activeCall.name?.toLowerCase().includes("mahabub");
-  const videoUrl = isKuldeep
+  const videoUrl = isEden
     ? process.env.NEXT_PUBLIC_VIDEOCALL_KULDEEPRAJPUT
     : isBhavesh
       ? process.env.NEXT_PUBLIC_VIDEOCALL_BHAVESH_KUMAR
       : isMahabub
         ? process.env.NEXT_PUBLIC_VIDEOCALL_MAHABUB
         : "";
-  const showVideo = (isKuldeep || isBhavesh || isMahabub) && videoUrl && !videoError;
+  const showVideo = (isEden || isBhavesh || isMahabub) && videoUrl && !videoError;
 
   return (
     <div className="absolute inset-0 bg-neutral-950 text-white z-40 flex flex-col justify-between overflow-hidden select-none h-full rounded-b-xl group">
