@@ -179,7 +179,7 @@ const useMessages = () => {
         ),
       );
 
-      // Eden chatbot reply triggers
+      // Omkar chatbot reply triggers
       if (activeChat.id === "eden") {
         setIsTyping(true);
         setTimeout(() => {

@@ -2,14 +2,14 @@
 1 0 obj<< /Type /Catalog /Pages 2 0 R >>endobj
 2 0 obj<< /Type /Pages /Kids [3 0 R] /Count 1 >>endobj
 3 0 obj<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>endobj
-4 0 obj<< /Length 1442 >>stream
+4 0 obj<< /Length 1213 >>stream
 BT
 /F1 16 Tf
 50 760 Td
-(EDEN BUILDS) Tj
+(OMKAR) Tj
 /F1 10 Tf
 0 -26 Td
-(Studio · edenbuilds · ios.edenbuilds.me · hello@edenbuilds.dev) Tj
+(Eden Builds · ios.edenbuilds.me · hello@edenbuilds.dev · github.com/edenbuilds) Tj
 0 -14 Td
 () Tj
 0 -14 Td
@@ -45,19 +45,9 @@ BT
 0 -14 Td
 () Tj
 0 -14 Td
-(OSS) Tj
+(HOW TO BROWSE THIS PORTFOLIO) Tj
 0 -14 Td
-(Upstream merges only. Recent: Mastra, Hono middleware, electron-vite, GenOffice, Bharat Courts.) Tj
-0 -14 Td
-() Tj
-0 -14 Td
-(PRINCIPLES) Tj
-0 -14 Td
-(Autonomy needs approvals, budgets, and a kill switch.) Tj
-0 -14 Td
-(Keep sensitive data on-device when possible.) Tj
-0 -14 Td
-(Match records by ID. Never invent legal or clinical facts.) Tj
+(Click the project folders on the desktop, or open Projects in the Dock.) Tj
 0 -14 Td
 ET
 endstream
@@ -70,8 +60,8 @@ xref
 0000000056 00000 n 
 0000000111 00000 n 
 0000000235 00000 n 
-0000001727 00000 n 
+0000001498 00000 n 
 trailer<< /Size 6 /Root 1 0 R >>
 startxref
-1795
+1566
 %%EOF

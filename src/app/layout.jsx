@@ -4,10 +4,10 @@ const trimTrailingSlash = (value) => value?.replace(/\/+$/, "");
 const SITE_URL = trimTrailingSlash(
   process.env.NEXT_PUBLIC_PORTFOLIO_URL || "https://ios.edenbuilds.me",
 );
-const OWNER_NAME = "Eden Builds";
+const OWNER_NAME = "Omkar";
 const SITE_NAME = `${OWNER_NAME} - macOS Portfolio`;
 const SITE_DESCRIPTION =
-  "Eden Builds interactive macOS portfolio — production legal ops, verification systems, MCP control planes, and agent infrastructure.";
+  "Omkar interactive macOS portfolio — production legal ops, verification systems, MCP control planes, and agent infrastructure.";
 const OG_IMAGE = "/readme/desktop.png";
 const GITHUB_PROFILE = process.env.NEXT_PUBLIC_GITHUB_PROFILE || "https://github.com/edenbuilds";
 const LINKEDIN_URL =
@@ -68,7 +68,7 @@ export const metadata = {
     "Next.js portfolio",
     "React portfolio",
     "AI portfolio",
-    "Eden Builds",
+    "Omkar",
     "agent infrastructure",
     "legal practice ops",
     "MCP gateway",

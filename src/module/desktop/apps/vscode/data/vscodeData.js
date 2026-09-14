@@ -11,7 +11,7 @@ export default function Portfolio() {
       <header className="sticky top-0 z-50 w-full py-4 border-b border-zinc-900 bg-[#0a0a0a]/80 backdrop-blur-md px-8 flex justify-between items-center">
         <div className="flex items-center gap-2">
           <span className="w-2.5 h-2.5 rounded-full bg-blue-500 animate-pulse" />
-          <span className="font-bold text-sm tracking-tight text-white uppercase">Eden Builds</span>
+          <span className="font-bold text-sm tracking-tight text-white uppercase">Omkar</span>
         </div>
         <nav className="flex gap-6 text-xs font-semibold text-zinc-400">
           <a href="#projects" className="hover:text-white transition-colors">Projects</a>
@@ -29,7 +29,7 @@ export default function Portfolio() {
 
       {/* Footer */}
       <footer className="py-8 border-t border-zinc-900 text-center text-xs text-zinc-500">
-        <p>© 2026 Eden Builds. Built with Next.js, React & Tailwind CSS.</p>
+        <p>© 2026 Omkar. Built with Next.js, React & Tailwind CSS.</p>
       </footer>
     </div>
   );
@@ -46,7 +46,7 @@ export default function Hero() {
         I build modern, scalable web applications
       </h1>
       <p className="text-base text-zinc-400 leading-relaxed max-w-2xl">
-        I am <span className="text-white font-medium">Eden Builds</span>. I design high-performance full-stack architectures and robust AI integrations using Next.js, React, and Tailwind CSS.
+        I am <span className="text-white font-medium">Omkar</span>. I design high-performance full-stack architectures and robust AI integrations using Next.js, React, and Tailwind CSS.
       </p>
       <div className="flex flex-wrap gap-4 pt-2">
         <a 
@@ -212,7 +212,7 @@ module.exports = {
   ".env": `NEXT_PUBLIC_GROQ_API_KEY=gsk_mock_key_12345
 PORT=3000
 NODE_ENV=development`,
-  "README.md": `# Eden Builds - Portfolio
+  "README.md": `# Omkar - Portfolio
 
 This is my personal developer portfolio built with React, Next.js, and Tailwind CSS. It highlights my full-stack web applications, tech stack, and digital writing.
 

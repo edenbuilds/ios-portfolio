@@ -29,7 +29,7 @@ export const INITIAL_CHATS = [
   },
   {
     id: "eden",
-    name: "Eden Builds",
+    name: "Omkar",
     type: "user",
     avatar: "/images/profile.webp",
     avatarColor: "bg-gradient-to-tr from-blue-500 to-indigo-600",

@@ -10,7 +10,7 @@ export const CONTACTS = [
   },
   {
     id: "eden",
-    name: "Eden Builds",
+    name: "Omkar",
     status: "My Profile",
     available: true,
     avatar: "/images/profile.webp",

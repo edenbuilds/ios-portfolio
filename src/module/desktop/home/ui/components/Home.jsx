@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { locations } from "@constants";
 import useLocationStore from "@store/location";
 import useWindowsStore from "@store/window";
@@ -21,10 +22,18 @@ const Home = () => {
     removeDesktopShortcut,
     updateShortcutPosition,
   } = useWindowsStore();
+  const [showTip, setShowTip] = useState(false);
 
   const handleOpenProjectFinder = (project) => {
     setActiveLocation(project);
     openWindow("finder");
+    setShowTip(false);
+  };
+
+  const handleOpenProjectsRoot = () => {
+    setActiveLocation(locations.work);
+    openWindow("finder");
+    setShowTip(false);
   };
 
   const handleOpenApp = (appId) => {
@@ -52,11 +61,25 @@ const Home = () => {
 
     if (source === "dock" && appId) {
       const rect = e.currentTarget.getBoundingClientRect();
-      const x = e.clientX - rect.left - 32; // center icon (half of w-16 = 32px)
+      const x = e.clientX - rect.left - 32;
       const y = e.clientY - rect.top - 40;
       addDesktopShortcut(appId, x, y);
     }
   };
+
+  // Open Projects Finder once after login so work is obvious.
+  useEffect(() => {
+    const seen = sessionStorage.getItem("omkar-projects-tip-seen");
+    const timer = setTimeout(() => {
+      setActiveLocation(locations.work);
+      openWindow("finder");
+      if (!seen) {
+        setShowTip(true);
+        sessionStorage.setItem("omkar-projects-tip-seen", "1");
+      }
+    }, 900);
+    return () => clearTimeout(timer);
+  }, [openWindow, setActiveLocation]);
 
   useGSAP(() => {
     const instances = Draggable.create(".folder, .desktop-shortcut", {
@@ -82,6 +105,13 @@ const Home = () => {
 
   return (
     <section id="home" onDragOver={handleDragOver} onDrop={handleDrop}>
+      <div className="absolute top-4 left-4 z-[2] pointer-events-none select-none">
+        <p className="text-[11px] uppercase tracking-[0.18em] text-white/80 font-semibold drop-shadow">
+          Projects
+        </p>
+        <p className="text-[12px] text-white/70 drop-shadow mt-0.5">Click a folder to open it</p>
+      </div>
+
       <ul>
         {projects.map((project) => (
           <HomeFolder
@@ -100,6 +130,35 @@ const Home = () => {
           />
         ))}
       </ul>
+
+      {showTip && (
+        <div className="absolute right-6 top-8 z-[5] w-[300px] rounded-2xl bg-[#f5e6a8] text-[#3b2f14] shadow-2xl border border-black/10 p-4 pointer-events-auto">
+          <div className="flex items-start justify-between gap-3">
+            <div>
+              <p className="text-[13px] font-bold">How to view projects</p>
+              <p className="text-[12px] leading-relaxed mt-1.5">
+                The folders on the left are Omkar&apos;s work. Click any folder, or use{" "}
+                <strong>Projects</strong> in the Dock. Inside each folder: read the .txt, open the
+                live link, or jump to GitHub.
+              </p>
+            </div>
+            <button
+              type="button"
+              className="text-[11px] font-semibold opacity-70 hover:opacity-100"
+              onClick={() => setShowTip(false)}
+            >
+              Close
+            </button>
+          </div>
+          <button
+            type="button"
+            onClick={handleOpenProjectsRoot}
+            className="mt-3 w-full rounded-xl bg-[#3b2f14] text-[#f5e6a8] text-[12px] font-semibold py-2 hover:opacity-90"
+          >
+            Open Projects folder
+          </button>
+        </div>
+      )}
     </section>
   );
 };

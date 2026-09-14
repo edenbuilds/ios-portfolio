@@ -295,13 +295,13 @@ const useVSCode = () => {
           } else if (sub === "log") {
             output = [
               "commit a1b2c3d (HEAD -> main, origin/main)",
-              "Author: Eden Builds <eden@dev.com>",
+              "Author: Omkar <eden@dev.com>",
               `Date:   ${new Date().toDateString()}`,
               "",
               "    Initial portfolio setup",
               "",
               "commit e4f5g6h",
-              "Author: Eden Builds <eden@dev.com>",
+              "Author: Omkar <eden@dev.com>",
               "Date:   Sat Jun 7 2026",
               "",
               "    Add macOS desktop simulation",

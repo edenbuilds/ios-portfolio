@@ -41,7 +41,7 @@ const NavbarControlCenterSection = ({
   const [mounted, setMounted] = useState(false);
 
   const [profile, setProfile] = useState({
-    name: "Eden Builds",
+    name: "Omkar",
     avatar_url: null,
     login: GITHUB_USERNAME,
     email: `${GITHUB_USERNAME}@users.noreply.github.com`,
@@ -61,7 +61,7 @@ const NavbarControlCenterSection = ({
       .then((data) => {
         if (data && data.login) {
           setProfile({
-            name: data.name || "Eden Builds",
+            name: data.name || "Omkar",
             avatar_url: data.avatar_url,
             login: data.login,
             email: data.email || `${data.login}@users.noreply.github.com`,
@@ -86,7 +86,7 @@ const NavbarControlCenterSection = ({
   const wifiNetworksList = [
     { name: "Home Network", locked: true, strength: "strong" },
     { name: "Coffee Shop 5G", locked: true, strength: "medium" },
-    { name: "iPhone (Eden)", locked: true, strength: "strong" },
+    { name: "iPhone (Omkar)", locked: true, strength: "strong" },
     { name: "Airport Free WiFi", locked: false, strength: "weak" },
   ];
 
@@ -763,7 +763,7 @@ const NavbarControlCenterSection = ({
                         >
                           {currentUserMode === "admin"
                             ? "Launch Guest Mode"
-                            : "Switch back to Admin (Eden)"}
+                            : "Switch back to Admin (Omkar)"}
                         </button>
                       </div>
                     </div>

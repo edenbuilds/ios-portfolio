@@ -13,7 +13,7 @@ import {
   PORTFOLIO_URL,
 } from "@constants";
 
-const OWNER_NAME = "Eden Builds";
+const OWNER_NAME = "Omkar";
 
 const FALLBACK_PROJECT_LINKS = {
   shb: PROJECT_1_URL,
@@ -460,10 +460,10 @@ const handleLocationCommand = (query, actions) => {
     ]) &&
     !hasAny(query, OPEN_INTENTS)
   ) {
-    return makeResult("I am designed only responsive about Eden Builds.", { listenAfter: true });
+    return makeResult("I am designed only responsive about Omkar.", { listenAfter: true });
   }
 
-  // Informational queries about Eden
+  // Informational queries about Omkar
   if (
     hasAny(query, [
       "tell me about eden",

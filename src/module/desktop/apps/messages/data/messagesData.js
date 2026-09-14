@@ -3,7 +3,7 @@ import { GITHUB_PROFILE } from "@constants";
 export const INITIAL_CONVERSATIONS = [
   {
     id: "eden",
-    name: "Eden Builds",
+    name: "Omkar",
     avatar: "/images/profile.webp",
     avatarColor: "bg-gradient-to-tr from-blue-500 to-indigo-500",
     initials: "K",
@@ -43,7 +43,7 @@ export const INITIAL_CONVERSATIONS = [
     messages: [
       {
         id: 1,
-        text: "Hey Eden, did you check the new desktop mockup?",
+        text: "Hey Omkar, did you check the new desktop mockup?",
         sender: "them",
         time: "Yesterday",
       },
@@ -68,7 +68,7 @@ export const INITIAL_CONVERSATIONS = [
     messages: [
       {
         id: 1,
-        text: "Hey Eden! I'm online now. Let me know if you need help with coding.",
+        text: "Hey Omkar! I'm online now. Let me know if you need help with coding.",
         sender: "them",
         time: "Yesterday",
       },

@@ -1,8 +1,8 @@
-# Eden Builds — iOS / macOS Portfolio
+# Omkar — iOS / macOS Portfolio
 
-Interactive macOS desktop portfolio for **Eden Builds** (`edenbuilds`), live at [ios.edenbuilds.me](https://ios.edenbuilds.me).
+Interactive macOS desktop portfolio for **Omkar** (`edenbuilds`), live at [ios.edenbuilds.me](https://ios.edenbuilds.me).
 
-Forked from [kuldeeprajput-dev/macos-portfolio](https://github.com/kuldeeprajput-dev/macos-portfolio) and rewritten for Eden’s studio work. Original UI/system by Kuldeep Rajput — see `LICENSE` for attribution requirements.
+Forked from [kuldeeprajput-dev/macos-portfolio](https://github.com/kuldeeprajput-dev/macos-portfolio) and rewritten for Omkar’s studio work. Original UI/system by Kuldeep Rajput — see `LICENSE` for attribution requirements.
 
 ## Featured work
 
@@ -29,4 +29,4 @@ npm run dev
 
 ## Credit
 
-Pixel-perfect macOS portfolio shell by [Kuldeep Rajput](https://github.com/kuldeeprajput-dev/macos-portfolio) (@kuldeepdotcom). This fork keeps the interaction model and replaces identity, projects, and copy for Eden Builds.
+Pixel-perfect macOS portfolio shell by [Kuldeep Rajput](https://github.com/kuldeeprajput-dev/macos-portfolio) (@kuldeepdotcom). This fork keeps the interaction model and replaces identity, projects, and copy for Omkar.

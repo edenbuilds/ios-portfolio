@@ -25,7 +25,7 @@ const Navbar = () => {
     openControlCenterFromNavbar,
   } = useNavbar();
 
-  const activeAppName = activeAppKey ? appNames[activeAppKey] || "Finder" : "Eden's Portfolio";
+  const activeAppName = activeAppKey ? appNames[activeAppKey] || "Finder" : "Omkar's Portfolio";
 
   return (
     <NavbarSection

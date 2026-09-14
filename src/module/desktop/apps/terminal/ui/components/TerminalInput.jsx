@@ -103,7 +103,7 @@ const TerminalInput = ({ terminalRef, xtermRef, fitAddonRef, commandRef }) => {
                 "\x1b[1;38;2;16;185;129mwhoami\x1b[0m    \x1b[38;2;75;85;99m- Print current user\x1b[0m",
               );
               println(
-                "\x1b[1;38;2;16;185;129mabout\x1b[0m     \x1b[38;2;75;85;99m- About Eden Builds\x1b[0m",
+                "\x1b[1;38;2;16;185;129mabout\x1b[0m     \x1b[38;2;75;85;99m- About Omkar\x1b[0m",
               );
               println(
                 "\x1b[1;38;2;16;185;129mtechstack\x1b[0m \x1b[38;2;75;85;99m- Display tech stack\x1b[0m",
@@ -128,8 +128,8 @@ const TerminalInput = ({ terminalRef, xtermRef, fitAddonRef, commandRef }) => {
               println("\x1b[38;2;75;85;99meden\x1b[0m");
               break;
             case "about":
-              println("\x1b[1;38;2;219;39;119m=== About Eden Builds ===\x1b[0m");
-              println("\x1b[1;38;2;16;185;129mName:      \x1b[38;2;75;85;99mEden Builds\x1b[0m");
+              println("\x1b[1;38;2;219;39;119m=== About Omkar ===\x1b[0m");
+              println("\x1b[1;38;2;16;185;129mName:      \x1b[38;2;75;85;99mOmkar\x1b[0m");
               println(
                 "\x1b[1;38;2;16;185;129mRole:      \x1b[38;2;75;85;99mFull-Stack Developer & Designer\x1b[0m",
               );

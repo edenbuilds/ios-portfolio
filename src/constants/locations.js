@@ -21,7 +21,7 @@ const WORK_LOCATION = {
       name: "SHB Firm Manager",
       icon: "/images/folder.webp",
       kind: "folder",
-      position: "top-10 left-5",
+      position: "top-16 left-6",
       windowPosition: "top-[5vh] left-5",
       children: [
         {
@@ -72,7 +72,7 @@ const WORK_LOCATION = {
       name: "Veryfy",
       icon: "/images/folder.webp",
       kind: "folder",
-      position: "top-52 right-80",
+      position: "top-44 left-6",
       windowPosition: "top-[20vh] left-7",
       children: [
         {
@@ -123,7 +123,7 @@ const WORK_LOCATION = {
       name: "Accord",
       icon: "/images/folder.webp",
       kind: "folder",
-      position: "top-10 left-80",
+      position: "top-72 left-6",
       windowPosition: "top-[33vh] left-7",
       children: [
         {
@@ -174,7 +174,7 @@ const WORK_LOCATION = {
       name: "Blackbox",
       icon: "/images/folder.webp",
       kind: "folder",
-      position: "top-52 left-5",
+      position: "top-[26rem] left-6",
       windowPosition: "top-[46vh] left-7",
       children: [
         {
@@ -187,7 +187,7 @@ const WORK_LOCATION = {
           description: [
             "A zero-dependency flight recorder for coding agents. Claude Code and Codex transcripts become one append-only event log.",
             "Query by session, file, command, model, and spend. Source transcripts stay untouched.",
-            "Part of the Eden agent surface alongside Marshall, Perimeter, Omni, Chancery, and Metr.",
+            "Part of the Omkar agent surface alongside Marshall, Perimeter, Omni, Chancery, and Metr.",
           ],
         },
         {
@@ -232,14 +232,14 @@ const ABOUT_LOCATION = {
   children: [
     {
       id: 4,
-      name: "about-eden.txt",
+      name: "about-omkar.txt",
       icon: "/images/txt.webp",
       kind: "file",
       fileType: "txt",
       position: "top-60 left-5",
-      subtitle: "Eden Builds",
+      subtitle: "Omkar · Eden Builds",
       description: [
-        "Eden Builds is a one-person studio shipping production apps for real clients, plus reputation through upstream open-source merges and public agent tools.",
+        "Omkar builds as Eden Builds — a one-person studio shipping production apps for real clients, plus reputation through upstream open-source merges and public agent tools.",
         "Active work spans SHB Firm Manager, Veryfy, Praya Studio, the Vikram Shah archive, and agent infra like Blackbox, Marshall, Perimeter, Omni, Chancery, and Metr.",
         "Also: client sites for UDW, Exceleon, Chirayu, Tulip, and Count. Design stays premium and understated — strong type, less text, everything clickable is clickable.",
       ],

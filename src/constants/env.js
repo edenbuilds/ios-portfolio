@@ -19,7 +19,8 @@ export const PORTFOLIO_ALT_URL =
 export const EMAIL = process.env.NEXT_PUBLIC_EMAIL || "hello@edenbuilds.dev";
 export const PHONE = process.env.NEXT_PUBLIC_PHONE || "";
 
-export const OWNER_NAME = "Eden Builds";
-export const OWNER_SHORT = "Eden";
+export const OWNER_NAME = "Omkar";
+export const OWNER_SHORT = "Omkar";
 export const OWNER_HANDLE = "edenbuilds";
+export const OWNER_STUDIO = "Omkar";
 export const SITE_TAGLINE = "Production apps, agent infra, and upstream open-source merges.";

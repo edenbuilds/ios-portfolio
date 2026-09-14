@@ -38,7 +38,7 @@ const useTelegram = () => {
   const [drawerSection, setDrawerSection] = useState("settings");
 
   const [userProfile, setUserProfile] = useState({
-    name: "Eden Builds",
+    name: "Omkar",
     username: "@edenbuilds",
     bio: "Full Stack Engineer | React, Next.js, Node.js & TypeScript enthusiast.",
     phone: "+91 ••••• •••••",
@@ -116,7 +116,7 @@ const useTelegram = () => {
 
         if (cmd.includes("/start")) {
           reply =
-            "Hello! I am your Telegram assistant. Type `/projects`, `/skills`, or `/contact` to browse Eden's portfolio.";
+            "Hello! I am your Telegram assistant. Type `/projects`, `/skills`, or `/contact` to browse Omkar's portfolio.";
         } else if (cmd.includes("/project")) {
           reply =
             "Here are some top projects:\n1. **SHB Firm Manager**: Legal practice ops — matters, diary, hearings, court scrapers.\n2. **Veryfy**: Verification cloud with client and control portals.\n3. **Accord**: MCP gateway with policies, bounded execution, and receipts.\n4. **Blackbox**: Flight recorder for coding-agent transcripts.";

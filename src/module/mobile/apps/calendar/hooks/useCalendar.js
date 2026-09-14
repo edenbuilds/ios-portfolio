@@ -48,7 +48,7 @@ const useCalendar = () => {
     return [
       {
         id: "1",
-        title: "Eden's Portfolio Review 🎂",
+        title: "Omkar's Portfolio Review 🎂",
         date: todayStr,
         start: "09:00",
         end: "10:30",

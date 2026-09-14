@@ -1,5 +1,5 @@
 export const dockApps = [
-  { id: "finder", name: "Portfolio", icon: "finder.webp", canOpen: true },
+  { id: "finder", name: "Projects", icon: "finder.webp", canOpen: true },
   { id: "launchpad", name: "Launchpad", icon: "Launchpad.webp", canOpen: true },
   { id: "safari", name: "Safari", icon: "safari.webp", canOpen: true },
   { id: "photos", name: "Gallery", icon: "photos.webp", canOpen: true },

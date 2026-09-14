@@ -117,7 +117,7 @@ const usePostman = () => {
           if (method === "GET") {
             data = {
               id: "usr_001",
-              name: "Eden Builds",
+              name: "Omkar",
               role: "Full Stack Developer",
               location: "Mumbai, India",
               github: GITHUB_PROFILE,
@@ -135,7 +135,7 @@ const usePostman = () => {
               updated_fields: parsed,
               profile: {
                 id: "usr_001",
-                name: parsed.name || "Eden Builds",
+                name: parsed.name || "Omkar",
                 role: parsed.role || "Full Stack Developer",
                 location: parsed.location || "Mumbai, India",
                 github: GITHUB_PROFILE,
