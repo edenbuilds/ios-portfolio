@@ -251,7 +251,7 @@ const LoginScreen = ({ onLogin, isMobile }) => {
         className="fixed inset-0 z-50 flex flex-col items-center justify-between text-white select-none overflow-hidden"
         style={{
           backgroundImage:
-            "image-set(url('/images/mobile-wallpaper.webp') type('image/webp'), url('/images/mobile-wallpaper.png'))",
+            "image-set(url('/images/omkar-lock.webp?v=3') type('image/webp'), url('/images/omkar-lock.png?v=3'))",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

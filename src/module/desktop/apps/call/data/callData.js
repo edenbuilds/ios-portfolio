@@ -1,30 +1,21 @@
 export const CONTACTS = [
   {
-    id: "bhavesh",
-    name: "Bhavesh Kumar",
-    status: "Frontend Developer",
-    available: true,
-    avatar: "/images/contacts/Bhavesh.webp",
-    avatarColor: "bg-gradient-to-tr from-indigo-500 to-purple-600",
-    callPreview: "/images/contacts/Bhavesh.webp",
-  },
-  {
-    id: "eden",
+    id: "omkar",
     name: "Omkar",
-    status: "My Profile",
+    status: "Founder · Eden Builds",
     available: true,
     avatar: "/images/profile.webp",
     avatarColor: "bg-gradient-to-tr from-blue-500 to-indigo-600",
     callPreview: "/images/profile.webp",
   },
   {
-    id: "mahabub",
-    name: "Mahabub",
-    status: "Coding assistant online",
+    id: "studio",
+    name: "Eden Builds",
+    status: "Studio line",
     available: true,
-    avatar: "/images/contacts/mahabub.webp",
-    avatarColor: "bg-gradient-to-tr from-purple-500 to-pink-600",
-    callPreview: "/images/contacts/mahabub.webp",
+    avatar: "/images/profile.webp",
+    avatarColor: "bg-gradient-to-tr from-stone-500 to-stone-700",
+    callPreview: "/images/profile.webp",
   },
 ];
 

@@ -70,8 +70,18 @@ body {
 @media (max-width: 767px) {
   body {
     background-image: image-set(
-      url("/images/mobile-wallpaper.webp") type("image/webp"),
-      url("/images/mobile-wallpaper.png")
+      url("/images/omkar-lock.webp?v=3") type("image/webp"),
+      url("/images/omkar-lock.png?v=3")
     ) !important;
+  }
+}
+
+@keyframes wavePulse {
+  0%,
+  100% {
+    transform: scaleY(0.25);
+  }
+  50% {
+    transform: scaleY(1);
   }
 }

@@ -50,10 +50,10 @@ export default function useSafari() {
     const lowerQuery = targetUrl.toLowerCase();
     let isRedirected = false;
 
-    if (lowerQuery.includes("youtube") || lowerQuery.includes("newtube")) {
+    if (lowerQuery.includes("youtube") || lowerQuery.includes("youtube")) {
       targetUrl = PROJECT_1_URL;
       isRedirected = true;
-    } else if (lowerQuery.includes("insta") || lowerQuery.includes("snsta")) {
+    } else if (lowerQuery.includes("insta") || lowerQuery.includes("instagram")) {
       targetUrl = PROJECT_2_URL;
       isRedirected = true;
     } else if (lowerQuery.includes("resume")) {

@@ -2,7 +2,7 @@
 
 ## Outcome
 
-Omkar's interactive macOS portfolio at `ios.edenbuilds.me` (fork of Kuldeep's macos-portfolio).
+Omkar's interactive macOS / iOS portfolio at `ios.edenbuilds.me`.
 
 ## Links
 
@@ -13,13 +13,14 @@ Omkar's interactive macOS portfolio at `ios.edenbuilds.me` (fork of Kuldeep's ma
 
 1. Log in (passcode = current year).
 2. Projects Finder opens automatically.
-3. Or click the folders on the left desktop: SHB Firm Manager, Veryfy, Accord, Blackbox.
+3. Or click folders on the left: SHB, Veryfy, Accord, Blackbox, Agentloop, Arya AI, Bloom, Vikram Shah Archive, GenOffice, Metr.
 4. Or click **Projects** in the Dock (first icon).
+5. About → more-on-github.txt for Hunk, Bharat Courts, Touchline, Enzo, loop.js.
 
 ## Photos
 
 - Mirror selfie → all profile / avatar surfaces
-- Bar photo with partner → wallpapers, gallery, memories, mobile wallpaper
+- Bar photo → wallpapers, gallery, memories, mobile lock (`omkar-lock.webp`)
 
 ## Notes
 

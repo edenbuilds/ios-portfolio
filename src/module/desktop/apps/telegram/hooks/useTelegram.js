@@ -119,16 +119,16 @@ const useTelegram = () => {
             "Hello! I am your Telegram assistant. Type `/projects`, `/skills`, or `/contact` to browse Omkar's portfolio.";
         } else if (cmd.includes("/project")) {
           reply =
-            "Here are some top projects:\n1. **SHB Firm Manager**: Legal practice ops — matters, diary, hearings, court scrapers.\n2. **Veryfy**: Verification cloud with client and control portals.\n3. **Accord**: MCP gateway with policies, bounded execution, and receipts.\n4. **Blackbox**: Flight recorder for coding-agent transcripts.";
+            "Featured from GitHub:\n1. **SHB Firm Manager** — chambers ops + court scrapers\n2. **Veryfy** — verification cloud\n3. **Accord** — MCP gateway\n4. **Blackbox** — agent flight recorder\n5. **Agentloop** — portable agent harness\n6. **Arya AI** — Indian-law drafting helpers\n7. **Bloom** — on-device gesture UI\n8. **GenOffice** — AI office suite\n9. **Metr** — macOS AI usage menu bar\n10. **Vikram Shah Archive** — public legal papers\n\nMore: Hunk, Bharat Courts, Touchline, Enzo, loop.js — github.com/edenbuilds";
         } else if (cmd.includes("/skill") || cmd.includes("/tech")) {
           reply =
-            "Core Stack:\n• **Frontend**: React, Next.js, TypeScript\n• **Styling**: CSS, Sass, Tailwind CSS\n• **Backend**: Node.js, Express, Bun, tRPC\n• **Databases**: PostgreSQL, MongoDB\n• **Tools**: Git, GitHub, Docker";
+            "Stack Omkar ships with:\n• Next.js, React, TypeScript, Tailwind\n• Supabase, Neon/Drizzle, Vercel, Railway\n• Anthropic MCP, agent harnesses\n• Swift / SwiftUI for macOS tools";
         } else if (cmd.includes("/contact")) {
           reply =
             "Get in touch:\n• Email: hello@edenbuilds.dev\n• Twitter: @edenbuilds\n• LinkedIn: /in/edenbuilds";
         } else if (cmd.includes("/help")) {
           reply =
-            "Available Commands:\n• `/start` - Start the helper\n• `/projects` - List developer projects\n• `/skills` - View technical skill list\n• `/contact` - Get direct emails/socials";
+            "Available Commands:\n• `/start` - Start the helper\n• `/projects` - List Omkar's GitHub projects\n• `/skills` - View Omkar's stack\n• `/contact` - Get direct emails/socials";
         }
 
         setChats((prev) =>

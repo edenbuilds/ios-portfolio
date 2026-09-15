@@ -1,74 +1,90 @@
-import { GITHUB_PROFILE } from "@constants";
+import { OWNER, FEATURED_PROJECTS, OSS_WINS } from "@constants/profile";
+
+const projectList = FEATURED_PROJECTS.map((p, i) => `${i + 1}. ${p.title} — ${p.blurb}`).join(
+  "\n\n",
+);
+const ossList = OSS_WINS.map((w) => `• ${w.name}: ${w.detail}`).join("\n");
 
 export const INITIAL_CONVERSATIONS = [
   {
-    id: "eden",
-    name: "Omkar",
+    id: "omkar",
+    name: OWNER.name,
     avatar: "/images/profile.webp",
     avatarColor: "bg-gradient-to-tr from-blue-500 to-indigo-500",
-    initials: "K",
+    initials: "O",
     unread: true,
-    email: "hello@edenbuilds.dev",
-    github: GITHUB_PROFILE,
+    email: OWNER.email,
+    github: OWNER.github,
     messages: [
       {
         id: 1,
-        text: "Hey there! Welcome to my macOS portfolio.",
+        text: `Hey — you're on ${OWNER.name}'s machine. I ship as ${OWNER.studio} (@${OWNER.handle}).`,
         sender: "them",
         time: "10:00 AM",
       },
       {
         id: 2,
-        text: "Feel free to ask me anything here. I have automated some quick replies!",
+        text: "Open the folders on the left for project write-ups, live links, and GitHub. Or ask here about stack, clients, or OSS.",
         sender: "them",
         time: "10:01 AM",
       },
       {
         id: 3,
-        text: "Try asking about: 'projects', 'skills', or 'contact'.",
+        text: `Featured from GitHub:\n\n${projectList}`,
         sender: "them",
         time: "10:01 AM",
       },
     ],
   },
   {
-    id: "bhavesh",
-    name: "Bhavesh Kumar",
-    avatar: "/images/contacts/Bhavesh.webp",
-    avatarColor: "bg-gradient-to-tr from-indigo-500 to-purple-600",
-    initials: "B",
+    id: "studio",
+    name: "Eden Builds",
+    avatar: "/images/profile.webp",
+    avatarColor: "bg-gradient-to-tr from-stone-500 to-stone-700",
+    initials: "E",
     unread: false,
-    email: "bhavesh@example.com",
-    github: "https://github.com",
+    email: OWNER.email,
+    github: OWNER.github,
     messages: [
       {
         id: 1,
-        text: "Hey Omkar, did you check the new desktop mockup?",
+        text: `${OWNER.tagline}`,
         sender: "them",
         time: "Yesterday",
       },
       {
         id: 2,
-        text: "Yeah, it looks super clean! The glassmorphism fits perfectly.",
-        sender: "me",
+        text: `Clients: ${OWNER.clients.join(", ")}. Agents: ${OWNER.agents.join(", ")}.`,
+        sender: "them",
         time: "Yesterday",
       },
-      { id: 3, text: "Awesome! Let's get it deployed soon.", sender: "them", time: "Yesterday" },
+      {
+        id: 3,
+        text: "Studio rule: scrapers and agents stay review-gated. Never invent authority.",
+        sender: "them",
+        time: "Yesterday",
+      },
     ],
   },
   {
-    id: "mahabub",
-    name: "Mahabub",
-    avatar: "/images/contacts/mahabub.webp",
-    avatarColor: "bg-gradient-to-tr from-purple-500 to-pink-600",
-    initials: "M",
+    id: "oss",
+    name: "Upstream",
+    avatar: "/images/profile.webp",
+    avatarColor: "bg-gradient-to-tr from-emerald-500 to-teal-600",
+    initials: "U",
     unread: false,
-    email: "mahabub@example.com",
-    github: "https://github.com",
+    email: OWNER.email,
+    github: OWNER.github,
     messages: [
       {
         id: 1,
-        text: "Hey Omkar! I'm online now. Let me know if you need help with coding.",
+        text: `Only upstream merges count.\n\n${ossList}`,
+        sender: "them",
+        time: "Yesterday",
+      },
+      {
+        id: 2,
+        text: `GitHub: ${OWNER.github}`,
         sender: "them",
         time: "Yesterday",
       },

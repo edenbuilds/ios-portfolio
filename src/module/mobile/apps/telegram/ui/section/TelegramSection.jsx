@@ -181,8 +181,8 @@ const TelegramSection = ({
   const contacts = [
     {
       name: "Omkar",
-      id: "eden",
-      initials: "K",
+      id: "omkar",
+      initials: "O",
       status: "online",
       color: "bg-gradient-to-tr from-blue-500 to-indigo-600",
       avatar: "/images/profile.webp",
@@ -195,7 +195,7 @@ const TelegramSection = ({
       color: "bg-gradient-to-tr from-blue-600 to-sky-700",
     },
     {
-      name: "Telegram Assistant Bot",
+      name: "Eden Builds Bot",
       id: "bot",
       initials: "TB",
       status: "bot",
@@ -207,14 +207,14 @@ const TelegramSection = ({
       id: "amit",
       initials: "AS",
       status: "offline",
-      color: "bg-gradient-to-tr from-emerald-450 to-teal-500",
+      color: "bg-gradient-to-tr from-emerald-500 to-teal-600",
     },
     {
       name: "Sneha Patel",
       id: "sneha",
       initials: "SP",
       status: "online",
-      color: "bg-gradient-to-tr from-pink-500 to-rose-500",
+      color: "bg-gradient-to-tr from-amber-500 to-orange-600",
     },
   ];
 

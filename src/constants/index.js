@@ -7,3 +7,4 @@ export { photosLinks, gallery } from "./photos";
 export { locations } from "./locations";
 export { INITIAL_Z_INDEX, WINDOW_CONFIG } from "./window";
 export * from "./env";
+export { OWNER, FEATURED_PROJECTS, MORE_GITHUB, OSS_WINS } from "./profile";

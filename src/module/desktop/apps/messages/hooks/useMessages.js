@@ -25,7 +25,7 @@ const useMessages = () => {
     return INITIAL_CONVERSATIONS;
   });
 
-  const [activeChatId, setActiveChatId] = useState("eden");
+  const [activeChatId, setActiveChatId] = useState("omkar");
   const [inputText, setInputText] = useState("");
   const [searchQuery, setSearchQuery] = useState("");
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
@@ -152,7 +152,7 @@ const useMessages = () => {
           replyText = "That's cool! Feel free to explore other apps in the dock too.";
           if (userMsg.includes("project")) {
             replyText =
-              "I have built several cool projects! You can check them out in the 'Portfolio' Finder app, or view 'SHB Firm Manager', 'Veryfy', and 'Blackbox'.";
+              "Open the Work folders on the desktop (or Projects in the Dock): SHB, Veryfy, Accord, Blackbox, Agentloop, Arya AI, Bloom, Vikram Shah Archive, GenOffice, and Metr — all from github.com/edenbuilds.";
           } else if (
             userMsg.includes("skill") ||
             userMsg.includes("tech") ||

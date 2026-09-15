@@ -71,7 +71,7 @@ const AppStoreSidebar = ({
             {githubProfile?.avatar_url ? (
               <img
                 src={githubProfile.avatar_url}
-                alt={githubProfile.name || "Kunal"}
+                alt={githubProfile.name || "Omkar"}
                 className="w-full h-full object-cover"
               />
             ) : (

@@ -58,16 +58,16 @@ const CallSection = ({
       avatarColor: "from-blue-500 to-indigo-600",
     },
     {
-      name: "Bhavesh Kumar",
+      name: "Eden Builds",
       type: "video",
       date: "Yesterday",
-      avatarColor: "from-indigo-500 to-purple-600",
+      avatarColor: "from-stone-500 to-stone-700",
     },
     {
-      name: "Mahabub",
-      type: "video",
+      name: "Omkar",
+      type: "audio",
       date: "Monday",
-      avatarColor: "from-purple-500 to-pink-600",
+      avatarColor: "from-sky-500 to-blue-700",
     },
   ];
 

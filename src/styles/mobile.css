@@ -1,7 +1,7 @@
 .mobile-os-container {
   background-image: image-set(
-    url("/images/mobile-wallpaper.webp") type("image/webp"),
-    url("/images/mobile-wallpaper.png")
+    url("/images/omkar-lock.webp?v=3") type("image/webp"),
+    url("/images/omkar-lock.png?v=3")
   );
   background-size: cover;
   background-position: center;

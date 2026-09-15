@@ -657,19 +657,19 @@ const SafariMobileHeader = ({ projects }) => {
                   <div className="flex-1 flex items-center justify-center mt-2 bg-zinc-50 rounded-xl border border-zinc-200/50 shadow-inner overflow-hidden select-none relative">
                     {(() => {
                       const urlLower = tab.url.toLowerCase();
-                      if (urlLower.includes("newtube") || urlLower.includes("youtube")) {
+                      if (urlLower.includes("youtube") || urlLower.includes("youtube")) {
                         return (
                           <img
-                            src="/projects/newtube.webp"
+                            src="/projects/youtube.webp"
                             alt="SHB Firm Manager"
                             className="w-full h-full object-cover object-top"
                           />
                         );
                       }
-                      if (urlLower.includes("insta") || urlLower.includes("snsta")) {
+                      if (urlLower.includes("insta") || urlLower.includes("instagram")) {
                         return (
                           <img
-                            src="/projects/snsta.webp"
+                            src="/projects/instagram.webp"
                             alt="Veryfy"
                             className="w-full h-full object-cover object-top"
                           />

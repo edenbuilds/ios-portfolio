@@ -32,17 +32,11 @@ const CallInProgress = ({
       .catch((err) => console.error("Error fetching profile avatar:", err));
   }, []);
 
-  const isEden = activeCall.name?.toLowerCase().includes("eden");
-  const isBhavesh = activeCall.name?.toLowerCase().includes("bhavesh");
-  const isMahabub = activeCall.name?.toLowerCase().includes("mahabub");
-  const videoUrl = isEden
-    ? process.env.NEXT_PUBLIC_VIDEOCALL_KULDEEPRAJPUT
-    : isBhavesh
-      ? process.env.NEXT_PUBLIC_VIDEOCALL_BHAVESH_KUMAR
-      : isMahabub
-        ? process.env.NEXT_PUBLIC_VIDEOCALL_MAHABUB
-        : "";
-  const showVideo = (isEden || isBhavesh || isMahabub) && videoUrl && !videoError;
+  const isOmkar =
+    activeCall.name?.toLowerCase().includes("omkar") ||
+    activeCall.name?.toLowerCase().includes("eden");
+  const videoUrl = isOmkar ? process.env.NEXT_PUBLIC_VIDEOCALL_OMKAR || "" : "";
+  const showVideo = isOmkar && videoUrl && !videoError;
 
   return (
     <div className="absolute inset-0 bg-neutral-950 text-white z-40 flex flex-col justify-between overflow-hidden select-none h-full rounded-b-xl group">
@@ -155,7 +149,7 @@ const CallInProgress = ({
                   key={idx}
                   className="w-[3px] h-6 bg-zinc-400 rounded-full origin-bottom"
                   style={{
-                    animation: "bounceVisualizer 1.2s ease-in-out infinite alternate",
+                    animation: "wavePulse 1.2s cubic-bezier(0.22, 1, 0.36, 1) infinite alternate",
                     animationDelay: `${idx * 0.15}s`,
                   }}
                 />

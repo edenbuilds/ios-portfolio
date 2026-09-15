@@ -1,7 +1,7 @@
 export const techStack = [
-  { category: "Web", items: ["Next.js", "React", "TypeScript", "Tailwind"] },
-  { category: "Motion", items: ["Motion", "GSAP", "Lenis", "Three.js"] },
+  { category: "Product", items: ["Next.js", "React 19", "TypeScript", "Tailwind"] },
+  { category: "Motion", items: ["GSAP", "Motion", "Lenis"] },
   { category: "Data", items: ["Supabase", "Neon", "Drizzle", "Upstash"] },
-  { category: "Hosting", items: ["Vercel", "Railway", "GitHub Actions"] },
-  { category: "AI & Agents", items: ["Anthropic", "MCP", "Swift/SwiftUI"] },
+  { category: "Ship", items: ["Vercel", "Railway", "GitHub Actions"] },
+  { category: "Agents", items: ["Anthropic", "MCP", "Swift / SwiftUI"] },
 ];

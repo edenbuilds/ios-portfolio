@@ -12,7 +12,7 @@ const defaultNotes = [
     folderId: "notes",
     title: "How to view projects",
     preview: "Click the folders on the left desktop, or open Projects in the Dock.",
-    body: "<div><strong>How to view Omkar&apos;s projects</strong></div><div><br></div><div>1. On the desktop, click any folder on the left: <strong>SHB Firm Manager</strong>, <strong>Veryfy</strong>, <strong>Accord</strong>, or <strong>Blackbox</strong>.</div><div>2. Or click <strong>Projects</strong> in the Dock (first icon).</div><div>3. Inside a project folder: open the .txt for the write-up, the safari link for live, or github.com for source.</div><div><br></div><div>Passcode on the lock screen is the current year.</div>",
+    body: "<div><strong>How to view Omkar&apos;s projects</strong></div><div><br></div><div>1. On the desktop, open any folder on the left — SHB, Veryfy, Accord, Blackbox, Agentloop, Arya AI, Bloom, Vikram Shah Archive, GenOffice, or Metr.</div><div>2. Or click <strong>Projects</strong> in the Dock (first icon).</div><div>3. Inside a folder: open the .txt write-up, the Safari link for live, or github.com for source.</div><div>4. About → more-on-github.txt lists Hunk, Bharat Courts, Touchline, Enzo, and loop.js.</div><div><br></div><div>Passcode on the lock screen is the current year.</div>",
     updatedAt: new Date().toISOString(),
   },
   {
@@ -20,7 +20,7 @@ const defaultNotes = [
     folderId: "quick",
     title: "Studio",
     preview: "Omkar · Eden Builds — production apps and agent infra.",
-    body: "<div><strong>Studio</strong></div><div><br></div><ul><li>SHB Firm Manager — legal practice ops</li><li>Veryfy — verification cloud</li><li>Accord — MCP control plane</li><li>Blackbox — agent flight recorder</li></ul>",
+    body: "<div><strong>Studio · Eden Builds</strong></div><div><br></div><ul><li>SHB Firm Manager — legal practice ops</li><li>Veryfy — verification cloud</li><li>Accord — MCP control plane</li><li>Blackbox — agent flight recorder</li><li>Agentloop — portable agent harness</li><li>Arya AI — Indian-law drafting helpers</li><li>Bloom — on-device gesture UI</li><li>GenOffice — AI office suite</li><li>Metr — macOS AI usage menu bar</li></ul><div><br></div><div>GitHub: github.com/edenbuilds</div>",
     updatedAt: new Date().toISOString(),
   },
 ];

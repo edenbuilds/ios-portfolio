@@ -467,22 +467,22 @@ const handleLocationCommand = (query, actions) => {
   if (
     hasAny(query, [
       "tell me about eden",
-      "tell me about rajput",
-      "tell me about eden rajput",
+      "tell me about omkar",
+      "tell me about eden builds",
       "who is eden",
-      "who is rajput",
-      "who is eden rajput",
+      "who is omkar",
+      "who is eden builds",
       "say about eden",
-      "say about rajput",
-      "say about eden rajput",
+      "say about omkar",
+      "say about eden builds",
     ]) ||
     query === "eden" ||
-    query === "rajput" ||
-    query === "eden rajput" ||
-    ((containsTerm(query, "eden") || containsTerm(query, "rajput")) && !hasAny(query, OPEN_INTENTS))
+    query === "omkar" ||
+    query === "eden builds" ||
+    ((containsTerm(query, "eden") || containsTerm(query, "omkar")) && !hasAny(query, OPEN_INTENTS))
   ) {
     return makeResult(
-      `${OWNER_NAME} is a web developer focused on React, Next.js, and polished interactive portfolio experiences.`,
+      `${OWNER_NAME} runs Eden Builds — shipping chambers ops, verification systems, MCP gateways, and agent tools. Open the Work folders or ask about Agentloop, Accord, Blackbox, Arya AI, GenOffice, or Metr.`,
       { listenAfter: true },
     );
   }
@@ -495,8 +495,8 @@ const handleLocationCommand = (query, actions) => {
       "open about",
       "about me",
       "about eden",
-      "about rajput",
-      "about eden rajput",
+      "about omkar",
+      "about eden builds",
       "developer profile",
     ])
   ) {

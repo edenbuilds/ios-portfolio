@@ -71,15 +71,9 @@ export default function Hero() {
 const SELECTED_PROJECTS = [
   {
     title: "SHB FIRM MANAGER",
-    desc: "Legal practice ops for chambers work — matters, diary, hearings, and court scrapers.",
+    desc: "Legal practice ops for chambers — matters, diary, hearings, and court scrapers.",
     tech: ["Next.js", "Supabase", "Railway", "TypeScript"],
     rating: "4.9"
-  },
-  {
-    title: "VERYFY",
-    desc: "Verification cloud with client and control portals for review-led workflows.",
-    tech: ["Next.js", "Supabase", "Resend", "AgentMail"],
-    rating: "4.8"
   },
   {
     title: "ACCORD",
@@ -88,9 +82,27 @@ const SELECTED_PROJECTS = [
     rating: "4.9"
   },
   {
+    title: "AGENTLOOP",
+    desc: "Portable agent harness — council, capped swarm, PEV loops, and ship gates.",
+    tech: ["Shell", "Agent Skills", "Markdown"],
+    rating: "4.9"
+  },
+  {
+    title: "GENOFFICE",
+    desc: "AI-native office suite for macOS and Windows with reliable post-tool turns.",
+    tech: ["TypeScript", "Electron", "AI"],
+    rating: "4.8"
+  },
+  {
     title: "BLACKBOX",
     desc: "Zero-dependency flight recorder for Claude Code and Codex transcripts.",
     tech: ["JavaScript", "Node.js", "JSONL", "CLI"],
+    rating: "4.8"
+  },
+  {
+    title: "METR",
+    desc: "Calm macOS menu-bar companion for AI usage windows — local and private.",
+    tech: ["Swift", "SwiftUI", "macOS"],
     rating: "4.8"
   }
 ];

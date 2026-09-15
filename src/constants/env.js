@@ -22,5 +22,5 @@ export const PHONE = process.env.NEXT_PUBLIC_PHONE || "";
 export const OWNER_NAME = "Omkar";
 export const OWNER_SHORT = "Omkar";
 export const OWNER_HANDLE = "edenbuilds";
-export const OWNER_STUDIO = "Omkar";
+export const OWNER_STUDIO = "Eden Builds";
 export const SITE_TAGLINE = "Production apps, agent infra, and upstream open-source merges.";
